@@ -26,13 +26,13 @@ function App() {
                     text = {texto2}
                     imagen = {precargador_imagenes['imagen3']}
                     bg = 'info'
-                    ir_al_proyecto = 'https://visualizador-ordenamientos.herokuapp.com/'>
+                    ir_al_proyecto = 'https://visualizador-ordenamientos.web.app/'>
                     </Tarjeta>
                     <Tarjeta title = 'Playing Bugs'
                     text = {texto3}
                     imagen = {precargador_imagenes['imagen5']}
                     bg = 'warning'
-                    ir_al_proyecto = ''></Tarjeta>
+                    ir_al_proyecto = 'https://www.youtube.com/channel/UCqnP9zivfDuIYisn-WifJEA/featured?pbjreload=102'></Tarjeta>
                 </CardDeck>
                 <hr className = 'bg-white pd-2'></hr>
         </div>
