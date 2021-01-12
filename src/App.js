@@ -9,6 +9,8 @@ function App() {
     es un proyecto colaborativo de 4 personas en total'
     let texto2 = 'Aplicacion web construida con tecnologia react, la aplicacion permite visualizar ciertos algoritmos \
     de ordenamiento, da la posibilidad de cambiar el numero de elementos a ordenar y la velocidad con la que estos se ordenan'
+    let texto3 = 'Canal de youtube como hobbie, la tematica del canal es sobre videojuegos, este al igual que el canal \
+    es un proyecto colaborativo de 4 personas en total'
     return (
         <div>
             <BarraSuperior></BarraSuperior>
@@ -17,34 +19,21 @@ function App() {
                     <Tarjeta title = 'Bugs Developers'
                     text = {texto1}
                     imagen = {precargador_imagenes['imagen4']}
-                    mas_informacion = 'https://www.youtube.com/channel/UCDMDqrjwkoSkCiCnEXj4S2g'
+                    bg = 'info'
                     ir_al_proyecto = 'https://www.youtube.com/channel/UCDMDqrjwkoSkCiCnEXj4S2g'>
                     </Tarjeta>
                     <Tarjeta title = 'Visualizador de ordenamientos'
                     text = {texto2}
                     imagen = {precargador_imagenes['imagen3']}
-                    mas_informacion = 'https://visualizador-ordenamientos.herokuapp.com/'
+                    bg = 'info'
                     ir_al_proyecto = 'https://visualizador-ordenamientos.herokuapp.com/'>
                     </Tarjeta>
-                    <Tarjeta></Tarjeta>
+                    <Tarjeta title = 'Playing Bugs'
+                    text = {texto3}
+                    imagen = {precargador_imagenes['imagen5']}
+                    bg = 'warning'
+                    ir_al_proyecto = ''></Tarjeta>
                 </CardDeck>
-
-                <CardDeck className = 'py-2'>
-                    <Tarjeta title = 'Bugs Developers'
-                    text = {texto1}
-                    imagen = {precargador_imagenes['imagen2']}
-                    mas_informacion = 'https://www.youtube.com/channel/UCDMDqrjwkoSkCiCnEXj4S2g'
-                    ir_al_proyecto = 'https://www.youtube.com/channel/UCDMDqrjwkoSkCiCnEXj4S2g'>
-                    </Tarjeta>
-                    <Tarjeta title = 'Visualizador de ordenamientos'
-                    text = {texto2}
-                    imagen = {precargador_imagenes['imagen3']}
-                    mas_informacion = 'https://visualizador-ordenamientos.herokuapp.com/'
-                    ir_al_proyecto = 'https://visualizador-ordenamientos.herokuapp.com/'>
-                    </Tarjeta>
-                    <Tarjeta></Tarjeta>
-                </CardDeck>
-
                 <hr className = 'bg-white pd-2'></hr>
         </div>
     );
